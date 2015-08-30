@@ -15,7 +15,7 @@
 		CE67B94C1B938D7200ADFEAD /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67B94B1B938D7200ADFEAD /* MoviesViewController.swift */; };
 		CE67B9521B9397D400ADFEAD /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67B9511B9397D400ADFEAD /* MovieCell.swift */; };
 		CEE17E321B939FD10011F02B /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE17E311B939FD10011F02B /* MovieDetailsViewController.swift */; };
-		F2D580AA18709D1AF015D183 /* libPods-MovieInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57739168E9C9D9E2A0158FB1 /* libPods-MovieInfo.a */; };
+		EC84E0CAEF75D70EB465B2F5 /* libPods-MovieInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8EDE58B97DD09940C9BE93 /* libPods-MovieInfo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		57739168E9C9D9E2A0158FB1 /* libPods-MovieInfo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieInfo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8EDE58B97DD09940C9BE93 /* libPods-MovieInfo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieInfo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE67B9261B938D1500ADFEAD /* MovieInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE67B92A1B938D1500ADFEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE67B92B1B938D1500ADFEAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2D580AA18709D1AF015D183 /* libPods-MovieInfo.a in Frameworks */,
+				EC84E0CAEF75D70EB465B2F5 /* libPods-MovieInfo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +69,7 @@
 		84B922A08B90D20A42C82464 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				57739168E9C9D9E2A0158FB1 /* libPods-MovieInfo.a */,
+				2A8EDE58B97DD09940C9BE93 /* libPods-MovieInfo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
