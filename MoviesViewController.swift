@@ -103,7 +103,13 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         cell.synopsisLabel.text = movie["synopsis"] as? String
         
         // Get poster
-        let url = NSURL(string: movie.valueForKeyPath("posters.thumbnail") as! String)!
+        var urlString = movie.valueForKeyPath("posters.thumbnail") as! String
+        var range = urlString.rangeOfString(".*cloudfront.net/", options: .RegularExpressionSearch)
+        if let range = range {
+            urlString = urlString.stringByReplacingCharactersInRange(range, withString: "https://content6.flixster.com/")
+        }
+        
+        let url = NSURL(string: urlString)!
         cell.posterImageView.setImageWithURL(url)
         return cell
     }

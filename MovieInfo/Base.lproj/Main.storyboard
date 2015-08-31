@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--List o' Movies-->
+        <!--Movies View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="MoviesViewController" customModule="MovieInfo" customModuleProvider="target" sceneMemberID="viewController">
@@ -20,17 +20,18 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oh no you lost network." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BCb-px-VMe">
-                                            <rect key="frame" x="21" y="11" width="160" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oh no you lost network lolz." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BCb-px-VMe">
+                                            <rect key="frame" x="21" y="11" width="180" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gEZ-9Q-Nxe">
-                                            <rect key="frame" x="181" y="6" width="64" height="30"/>
+                                            <rect key="frame" x="209" y="6" width="64" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="Try Again">
+                                                <color key="titleColor" red="1" green="0.064125705310000003" blue="0.8229041238" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                             <connections>
@@ -48,24 +49,26 @@
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="205.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bBu-vq-gyF">
-                                                    <rect key="frame" x="18" y="8" width="277" height="39"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OZK-oB-4C9">
+                                                    <rect key="frame" x="137" y="40" width="158" height="169.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OZK-oB-4C9">
-                                                    <rect key="frame" x="193" y="55" width="102" height="125"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
+                                                    <color key="highlightedColor" red="1" green="0.10610913850000001" blue="0.45644865200000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="XXd-24-e74">
-                                                    <rect key="frame" x="8" y="55" width="121" height="128"/>
+                                                    <rect key="frame" x="8" y="40" width="121" height="165.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="tintColor" red="0.67450980390000004" green="0.0" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
                                                 </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bBu-vq-gyF">
+                                                    <rect key="frame" x="15" y="0.0" width="162" height="39"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" red="0.14640448489999999" green="0.77552872470000001" blue="0.2816361047" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
@@ -82,7 +85,23 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="List o' Movies" id="wny-By-90Q"/>
+                    <navigationItem key="navigationItem" id="wny-By-90Q">
+                        <nil key="title"/>
+                        <view key="titleView" contentMode="scaleToFill" id="5HS-Um-SwX">
+                            <rect key="frame" x="8" y="5.5" width="304" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wow! What a List o' Movies!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Kke-j1-L2c">
+                                    <rect key="frame" x="32" y="7" width="264" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="18"/>
+                                    <color key="textColor" red="0.88627457620000005" green="0.78039222959999999" blue="0.94117653369999998" alpha="1" colorSpace="deviceRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.98431372549999996" green="0.0" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                    </navigationItem>
                     <connections>
                         <outlet property="NetworkView" destination="Qau-0G-3TP" id="aXt-5V-44L"/>
                         <outlet property="ReloadButton" destination="gEZ-9Q-Nxe" id="T2d-h8-AvJ"/>
@@ -105,26 +124,26 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <view contentMode="scaleToFill" id="zYd-yA-GeF">
-                                <rect key="frame" x="0.0" y="150" width="320" height="418"/>
+                            <view alpha="0.69999999999999973" contentMode="scaleToFill" id="zYd-yA-GeF">
+                                <rect key="frame" x="0.0" y="191" width="320" height="377"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UvB-fY-1U5">
-                                        <rect key="frame" x="19" y="23" width="42" height="21"/>
+                                        <rect key="frame" x="8" y="0.0" width="312" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="26"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
+                                        <color key="highlightedColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9sx-6f-PVO">
-                                        <rect key="frame" x="19" y="211" width="271" height="160"/>
+                                        <rect key="frame" x="8" y="47" width="304" height="322"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.88627457618713379" green="0.78039222955703735" blue="0.94117653369903564" alpha="1" colorSpace="deviceRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -138,7 +157,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bXl-4W-b6R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1146" y="372"/>
+            <point key="canvasLocation" x="1160" y="349"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YWP-Bc-rNY">
@@ -156,7 +175,20 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sbN-Cp-chk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="245" y="349"/>
+            <point key="canvasLocation" x="401" y="349"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YQH-bB-Nfn">
+            <objects>
+                <viewController id="Prn-hB-QTo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fLW-mm-gtX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OgM-o8-isf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -164,4 +196,5 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <color key="tintColor" red="1" green="0.12000563359999999" blue="0.41421866540000002" alpha="1" colorSpace="calibratedRGB"/>
 </document>
